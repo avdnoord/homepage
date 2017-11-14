@@ -62,9 +62,9 @@
     </div>
 
     <nav class="sidebar-nav">
-      <a class="sidebar-nav-item" href="https://twitter.com/avdnoord"><i class="fa fa-twitter fa-fw">&nbsp;&nbsp;</i>Twitter</a>  
-      <a class="sidebar-nav-item" href="https://arxiv.org/find/cs/1/au:+Oord_A/0/1/0/all/0/1"><i class="ai ai-arxiv ai-fw">&nbsp;</i>Arxiv</a>  
-      <a class="sidebar-nav-item" href="https://scholar.google.co.uk/citations?user=TqUN-LwAAAAJ"><i class="ai ai-google-scholar ai-fw">&nbsp;</i>Google&nbsp;Scholar</a>
+      <a class="sidebar-nav-item" href="https://twitter.com/avdnoord" target="_blank"><i class="fa fa-twitter fa-fw">&nbsp;&nbsp;</i>Twitter</a>  
+      <a class="sidebar-nav-item" href="https://arxiv.org/find/cs/1/au:+Oord_A/0/1/0/all/0/1" target="_blank"><i class="ai ai-arxiv ai-fw">&nbsp;</i>Arxiv</a>  
+      <a class="sidebar-nav-item" href="https://scholar.google.co.uk/citations?user=TqUN-LwAAAAJ" target="_blank"><i class="ai ai-google-scholar ai-fw">&nbsp;</i>Google&nbsp;Scholar</a>
     </nav>
 
   </div>
@@ -74,7 +74,7 @@
     <div class="content container">
       <h1 id="neural-discrete-representation-learning">Neural Discrete Representation Learning</h1>
 
-<p>All samples on this page are from a VQ-VAE learned in an unsupervised way from unaligned data.</p>
+<p>All samples on this page are from a VQ-VAE learned in an unsupervised way from unaligned data. More details in the <a href="https://arxiv.org/abs/1711.00937" target="_blank"><span style="color:rgb(223, 10, 10)">paper</span></a>.</p>
 
 <h2 id="reconstructions">Reconstructions</h2>
 
@@ -112,7 +112,7 @@ Originals and reconstructions</p>
 
 <p>The VQ-VAE never saw any aligned data during training and was always optimizing the reconstruction of the orginal waveform. These experiments suggest that the encoder has factored out speaker-specific information in the encoded representations, as they have same meaning across different voice characteristics. This behaviour arises naturally because the decoder gets the speaker-id for free so the limited bandwith of latent codes gets used for other speaker-independent, phonetic information.</p>
 
-<p>In the paper we show that the latent codes discovered by the VQ-VAE are actually very closely related to the human-designed alphabet of phonemes.</p>
+<p>In the <a href="https://arxiv.org/abs/1711.00937" target="_blank"><span style="color:rgb(223, 10, 10)">paper</span></a> we show that the latent codes discovered by the VQ-VAE are actually very closely related to the human-designed alphabet of phonemes.</p>
 
 <blockquote>
   <p><img src="/homepage/images/style_transfer.jpg" width="85%" height="85%" style="margin-bottom: 40px" /></p>
